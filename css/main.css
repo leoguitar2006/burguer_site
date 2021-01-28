@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow: hidden;
+}
+
 .container-fluid.sem-margem {
     padding: 0;
     margin: 0;
@@ -14,7 +18,7 @@
 }
 
 .nav-item .nav-link {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;    
 }
 
 .header-back {
@@ -27,6 +31,7 @@
 }
 
 .header-back.one {
+    position: relative;
     background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.50)100%), url(../img/capa_2.jpg);
     background-repeat: no-repeat;   
     background-size: cover; 
@@ -40,4 +45,24 @@
     background-repeat: no-repeat;   
     background-size: cover; 
     background-position: 0;    
+}
+
+.display-3.texto-branco {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;   
+}
+
+a.texto-branco {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+h6.texto-branco {
+    color: white;    
+    font-weight: 200; 
+    margin-bottom: 2.5rem;  
 }
