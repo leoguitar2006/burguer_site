@@ -5,7 +5,7 @@
 }
 
 body {
-    overflow: hidden;
+   overflow: hidden; 
 }
 
 .container-fluid.sem-margem {
@@ -31,8 +31,8 @@ body {
 }
 
 .header-back.one {
-    position: relative;
-    background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.50)100%), url(../img/capa_2.jpg);
+    position: relative;   
+    background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);
     background-repeat: no-repeat;   
     background-size: cover; 
     background-position: 0;
@@ -65,4 +65,11 @@ h6.texto-branco {
     color: white;    
     font-weight: 200; 
     margin-bottom: 2.5rem;  
+}
+
+#best-price {
+    transform: rotate(-30deg);
+    transform-origin: left top 0;
+    margin-top: 3rem;
+    margin-left: 1.25rem;
 }
