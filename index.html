@@ -14,11 +14,15 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/main.css">
-   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Scripts-->    
 </head>
-<body>
-    
-    <div class="container-fluid sem-margem header-back one">       
+<body> 
+    <div id="loader">
+        <i class="fa fa-cog fa-spin fa-5x fa-fw"></i><span class="sr-only">Loading...</span>
+    </div>   
+    <div class="container-fluid sem-margem header-back one">              
         <div class="container">            
             <header>
                 <div class="row"> 
@@ -99,8 +103,17 @@
     </div> <!-- Container Fluid-->
 
     
-    <!-- Scripts -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
+    <!-- Scripts -->  
+    <script src="./js/jquery-3.5.1.min.js"></script> 
     <script src="./js/bootstrap.min.js"></script>  
+
+    <script type="text/javascript">
+        // Este evendo é acionado após o carregamento da página
+        jQuery(window).load(function() {
+            //Após a leitura da pagina o evento fadeOut do loader é acionado, esta com delay para ser perceptivo em ambiente fora do servidor.
+            jQuery("#loader").delay(2000).fadeOut("slow");
+        });
+    </script>
+     </body>
 </body>
 </html>
