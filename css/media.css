@@ -29,7 +29,7 @@ html {
         font-size: 0.7rem;
     }
     .header-back.one {        
-        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);      
+        background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);      
         background-repeat: no-repeat;   
         background-size: cover; 
         background-position: 0;  
@@ -51,7 +51,7 @@ html {
         font-size: 1rem;
     }
     .header-back.one {        
-        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);  
+        background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);      
         background-repeat: no-repeat;   
         background-size: cover; 
         background-position: 0;  
@@ -73,7 +73,7 @@ html {
         font-size: 1.2rem;
     }
     .header-back.one {        
-        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);  
+        background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);      
         background-repeat: no-repeat;   
         background-size: cover; 
         background-position: 0;  
@@ -95,7 +95,7 @@ html {
         font-size: 1.4rem;
     }
     .header-back.one {        
-        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);  
+        background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);      
         background-repeat: no-repeat;   
         background-size: cover; 
         background-position: 0;  
@@ -117,7 +117,7 @@ html {
         font-size: 1.2rem;
     }
     .header-back.one {        
-        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);  
+        background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);      
         background-repeat: no-repeat;   
         background-size: cover; 
         background-position: 0;  
