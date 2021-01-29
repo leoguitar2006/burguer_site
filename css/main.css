@@ -38,10 +38,11 @@ body {
     background-position: 0;    
 }
 
-.display-3.texto-branco {
+h2.texto-branco {
     color: white;
     font-family: 'Oswald', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 3rem;
     margin-bottom: 1.5rem;   
 }
 

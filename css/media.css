@@ -5,10 +5,43 @@ html {
 /* X-Small devices (portrait phones, less than 576px)*/
 /* No media query for `xs` since this is the default in Bootstrap*/
 
+@media (min-width: 1px) {
+    .header-back.one {        
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_3.jpg); 
+        background-repeat: no-repeat;   
+        background-size: cover; 
+        background-position: 0;  
+        position: relative;    
+    }
+
+    h2.texto-branco {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;   
+    }
+}
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     html {
         font-size: 0.7rem;
+    }
+    .header-back.one {        
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);      
+        background-repeat: no-repeat;   
+        background-size: cover; 
+        background-position: 0;  
+        position: relative;
+    }
+
+    h2.texto-branco {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;   
     }
  }
 
@@ -17,12 +50,42 @@ html {
     html {
         font-size: 1rem;
     }
+    .header-back.one {        
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);  
+        background-repeat: no-repeat;   
+        background-size: cover; 
+        background-position: 0;  
+        position: relative;    
+    }
+
+    h2.texto-branco {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;   
+    }
  }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
     html {
         font-size: 1.2rem;
+    }
+    .header-back.one {        
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);  
+        background-repeat: no-repeat;   
+        background-size: cover; 
+        background-position: 0;  
+        position: relative;    
+    }
+
+    h2.texto-branco {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;   
     }
  }
 
@@ -31,11 +94,41 @@ html {
     html {
         font-size: 1.4rem;
     }
+    .header-back.one {        
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);  
+        background-repeat: no-repeat;   
+        background-size: cover; 
+        background-position: 0;  
+        position: relative;    
+    }
+
+    h2.texto-branco {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;   
+    }
  }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
     html {
         font-size: 1.2rem;
+    }
+    .header-back.one {        
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);  
+        background-repeat: no-repeat;   
+        background-size: cover; 
+        background-position: 0;  
+        position: relative;    
+    }
+
+    h2.texto-branco {
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 800;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;   
     }
  }
