@@ -8,15 +8,6 @@ body {
    overflow: hidden; 
 }
 
-.container-fluid.sem-margem {
-    padding: 0;
-    margin: 0;
-}
-
-.nav-item.fonte-menu {
-    font-size: 1.4rem;
-}
-
 .nav-item .nav-link {
     font-family: 'Oswald', sans-serif;    
 }
