@@ -21,6 +21,10 @@ html {
         font-size: 3rem;
         margin-bottom: 1.5rem;   
     }
+
+    div#chamada-principal {
+        text-align: center;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -29,7 +33,7 @@ html {
         font-size: 0.7rem;
     }
     .header-back.one {        
-        background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_2.jpg);      
+        background: linear-gradient(to right,rgba(0,0,0,1),rgba(0,0,0,.01)100%), url(../img/capa_3.jpg);      
         background-repeat: no-repeat;   
         background-size: cover; 
         background-position: 0;  
@@ -46,7 +50,7 @@ html {
  }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
+@media (min-width: 769px) { 
     html {
         font-size: 1rem;
     }
