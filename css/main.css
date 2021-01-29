@@ -59,9 +59,6 @@ h6.texto-branco {
     margin-bottom: 2.5rem;  
 }
 
-#best-price {
-    transform: rotate(-30deg);
-    transform-origin: left top 0;
-    margin-top: 3rem;
-    margin-left: 1.25rem;
-}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(207, 206, 206)
+  } 
